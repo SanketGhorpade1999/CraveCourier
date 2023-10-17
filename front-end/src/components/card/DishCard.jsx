@@ -52,7 +52,7 @@ class DishCard extends React.Component {
           style={{backgroundColor: "#FAFAD2", height: "30px"}}
           titleTypographyProps={{variant:'body1'}}
           title={this.props.dish.dishName}
-          subheader={"$ " + this.props.dish.price}
+          subheader={"₹ " + this.props.dish.price}
         />
         <img className="dishCardImage" src= {this.props.dish.imageUrl} alt={this.props.dish.dishName} />
         <CardActions style={{backgroundColor: "#e6f7ff"}}>
